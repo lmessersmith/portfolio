@@ -1,0 +1,86 @@
+body {
+    padding: 0 16px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16px;
+}
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    display: inline;
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+}
+
+details {
+    cursor: pointer;
+}
+
+.project-image {
+    width: 75%;;
+}
+.nav-bar {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+.nav-bar-item {
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.about-container {
+    display: flex;
+}
+
+.portrait {
+    width: 300px;
+}
+
+.about-text {
+    margin-right: 16px;
+}
+
+.skills-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.skill-icon{
+    font-size: 3em;
+    width: 2em;
+    margin-top: 8px;
+}
+
+.contact-icon {
+    font-size: 2em;
+    width: 2em;
+    margin-top: 8px;
+}

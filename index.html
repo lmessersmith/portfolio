@@ -2,6 +2,78 @@
 <html>
     <head>
         <title>Portfolio</title>
-        <link href="./style.css" type="stylesheet" rel="text/css">
+        <link href="./style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/8972287b0a.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
     </head>
+    <body>
+        <nav>
+            <h1 class="name">Lia Messersmith</h1>
+            <ul class="nav-bar">
+                <li class="nav-bar-item"><a href="#about-me">About Me</a></li>
+                <li class="nav-bar-item"><a href="#projects">Projects</a></li>
+                <li class="nav-bar-item"><a href="#skills">Skills</a></li>
+                <li class="nav-bar-item"><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="about-me">
+                <div class="about-container">
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>I am a graduate of Mount Holyoke College in Western Massachusetts. I love to code and discover innovative
+                            solutions to real world questions.
+                            Currently looking for work as a software developer.
+                        </p>
+                        <p>
+                            My hobbies include learning new programming languages, 3D modeling and printing, hiking, stained glass, and
+                            field hockey
+                        </p>
+                    </div>
+                    <img src="resources/about-me.jpg" alt="A photo of Lia Messersmith" class="portrait">
+                </div>
+            </section>
+            <section id="projects">
+                <h2>Favorite Projects</h2>
+                <details class="projects">
+                    <summary class="project-title">
+                        <h3>Blokus</h3>
+                    </summary>
+                    <img src="resources/blokus.png" alt="An image of coded blokus game" class="project-image">
+                    <p class="project-description">This is a virtual version of the game Blokus.</p>
+                </details>
+                <details class="projects">
+                    <summary class="project-title">
+                        <h3>Mixed Messages</h3>
+                    </summary>
+                    <img src="resources/mixed-messages.png" alt="An image of summary of mixed messages" class="project-image">
+                    <p class="project-description">This outputs three random facts. This was a part of the Full Stack Engineer Career Path on Codecademy.</p>
+                    <p>Test the project here!</p>
+                    <button type="button" onclick="getFacts()">Click me for random facts!</button>
+                    <p id="fact-1"></p>
+                    <p id="fact-2"></p>
+                    <p id="fact-3"></p>
+                </details>
+                <details class="projects">
+                    <summary class="project-title">
+                        <h3>Number Guesser</h3>
+                    </summary>
+                    <img src="resources/number-guesser.png" alt="An image of coded number guesser game" class="project-image">
+                    <p class="project-description">This game has the user guess the number the computer is thinking. This was a part of the Full Stack Engineer Career Path on Codecademy.</p>
+                </details>
+            </section>
+            <section id="skills">
+                <h2>Skills</h2>
+                <div class="skills-container">
+                    <i class="fab fa-html5 skill-icon"></i>
+                    <i class="fab fa-css3-alt skill-icon"></i>
+                    <i class="fab fa-js skill-icon"></i>
+                    <i class="fab fa-git skill-icon"></i>
+                    <i class="fab fa-python skill-icon"></i>
+                    <i class="fab fa-java skill-icon"></i>
+                </div>
+            </section>
+        </main>
+        <script src="./mixed-messages.js"></script>
+    </body>
 </html>
